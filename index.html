@@ -1,0 +1,1014 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KAMPUS – KAMKEY PUSAT | Komunitas Pemuda</title>
+    <meta name="description" content="Komunitas Pemuda untuk Persatuan, Kreativitas, dan Pengabdian kepada Masyarakat">
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Google Fonts - Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ==================== LOADING SCREEN ==================== -->
+    <div id="loading-screen">
+        <div class="loader-content">
+            <div class="loader-logo">
+                <i class="bi bi-people-fill"></i>
+            </div>
+            <h2 class="loader-title">KAMPUS</h2>
+            <p class="loader-sub">KAMKEY PUSAT</p>
+            <div class="loader-bar">
+                <div class="loader-bar-fill"></div>
+            </div>
+            <p class="loader-text">Memuat Presentasi...</p>
+        </div>
+    </div>
+
+    <!-- ==================== NAVBAR ==================== -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNavbar">
+        <div class="container">
+            <a class="navbar-brand" href="#hero">
+                <i class="bi bi-people-fill me-2"></i>KAMPUS
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#tentang">Tentang</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#visi-misi">Visi & Misi</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#nilai">Nilai</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#kegiatan">Kegiatan</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#timeline">Timeline</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#organisasi">Organisasi</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#anggaran">Anggaran</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#galeri">Galeri</a></li>
+                    <li class="nav-item">
+                        <button class="btn btn-sm btn-outline-dark mode-toggle ms-2" id="darkModeToggle" aria-label="Toggle Dark Mode">
+                            <i class="fas fa-moon"></i>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ==================== HERO SECTION ==================== -->
+    <section id="hero" class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="hero-bg-video">
+            <div class="hero-bg-particles">
+                <div class="particle" style="top:10%;left:10%;animation-delay:0s;"></div>
+                <div class="particle" style="top:20%;right:15%;animation-delay:0.5s;"></div>
+                <div class="particle" style="top:50%;left:5%;animation-delay:1s;"></div>
+                <div class="particle" style="top:70%;right:10%;animation-delay:1.5s;"></div>
+                <div class="particle" style="top:85%;left:20%;animation-delay:2s;"></div>
+                <div class="particle" style="top:15%;right:35%;animation-delay:2.5s;"></div>
+                <div class="particle" style="top:60%;left:40%;animation-delay:3s;"></div>
+                <div class="particle" style="top:35%;right:25%;animation-delay:3.5s;"></div>
+            </div>
+        </div>
+        <div class="container hero-content">
+            <div class="row align-items-center">
+                <div class="col-lg-8 mx-auto text-center">
+                    <div class="hero-badge" data-aos="fade-down" data-aos-delay="100">
+                        <i class="bi bi-megaphone-fill"></i> Komunitas Pemuda
+                    </div>
+                    <h1 class="hero-title" data-aos="fade-up" data-aos-delay="200">
+                        <span class="text-gold">KAMPUS</span>
+                        <span class="text-orange"> – </span>
+                        <span class="text-white">KAMKEY PUSAT</span>
+                    </h1>
+                    <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="300">
+                        Komunitas Pemuda untuk Persatuan, Kreativitas, dan Pengabdian kepada Masyarakat
+                    </p>
+                    <p class="hero-tagline" data-aos="fade-up" data-aos-delay="400">
+                        <i class="fas fa-quote-left text-gold me-2"></i>
+                        "Bersatu dalam Kebersamaan, Berkarya untuk Masyarakat."
+                        <i class="fas fa-quote-right text-gold ms-2"></i>
+                    </p>
+                    <div class="hero-buttons mt-4" data-aos="fade-up" data-aos-delay="500">
+                        <a href="#tentang" class="btn btn-hero btn-hero-primary">
+                            <i class="bi bi-play-circle me-2"></i>Mulai Presentasi
+                        </a>
+                        <a href="#kegiatan" class="btn btn-hero btn-hero-gold">
+                            <i class="bi bi-lightbulb me-2"></i>Lihat Ide Kegiatan
+                        </a>
+                        <a href="#timeline" class="btn btn-hero btn-hero-outline">
+                            <i class="bi bi-calendar-check me-2"></i>Rencana Pelaksanaan
+                        </a>
+                    </div>
+                    <div class="hero-scroll-indicator mt-5" data-aos="fade-up" data-aos-delay="700">
+                        <span>Scroll untuk menjelajahi</span>
+                        <div class="scroll-mouse">
+                            <div class="scroll-wheel"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== TENTANG SECTION ==================== -->
+    <section id="tentang" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center" data-aos="fade-up">
+                    <h2 class="section-title">Tentang <span class="text-gold">Komunitas</span></h2>
+                    <div class="section-divider"></div>
+                </div>
+            </div>
+            <div class="row align-items-center g-5 mt-3">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="about-image-wrapper">
+                        <div class="about-image">
+                            <i class="bi bi-people-fill about-icon"></i>
+                        </div>
+                        <div class="about-exp">Sejak 2026</div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="about-content">
+                        <h3 class="about-title">Siapa Kami?</h3>
+                        <p class="about-text">
+                            <strong>KAMPUS – KAMKEY PUSAT</strong> adalah komunitas pemuda yang berdedikasi untuk membangun 
+                            persatuan, mengembangkan kreativitas, dan meningkatkan kepedulian sosial di masyarakat. 
+                            Berawal dari keprihatinan terhadap kurangnya wadah positif bagi generasi muda, kami hadir 
+                            sebagai ruang berkumpul, berdiskusi, dan berkarya bersama.
+                        </p>
+                        <h4 class="about-title mt-4">Tujuan Kami</h4>
+                        <p class="about-text">
+                            Menciptakan lingkungan yang mendukung pertumbuhan pemuda melalui berbagai kegiatan 
+                            positif yang bermanfaat bagi diri sendiri, sesama, dan masyarakat luas.
+                        </p>
+                        <h4 class="about-title mt-4">Harapan Kami</h4>
+                        <p class="about-text">
+                            Menjadi gerakan pemuda yang berkelanjutan, menginspirasi banyak orang, dan membawa 
+                            perubahan nyata di tengah-tengah masyarakat.
+                        </p>
+                        <div class="about-stats mt-4">
+                            <div class="row">
+                                <div class="col-4 text-center">
+                                    <div class="stat-item">
+                                        <span class="counter" data-target="50">0</span><span>+</span>
+                                        <p>Anggota Aktif</p>
+                                    </div>
+                                </div>
+                                <div class="col-4 text-center">
+                                    <div class="stat-item">
+                                        <span class="counter" data-target="20">0</span><span>+</span>
+                                        <p>Program Kerja</p>
+                                    </div>
+                                </div>
+                                <div class="col-4 text-center">
+                                    <div class="stat-item">
+                                        <span class="counter" data-target="5">0</span><span>+</span>
+                                        <p>Tahun Berdiri</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== VISI & MISI SECTION ==================== -->
+    <section id="visi-misi" class="section-padding bg-gradient-vm">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center" data-aos="fade-up">
+                    <h2 class="section-title text-white">Visi & <span class="text-gold">Misi</span></h2>
+                    <div class="section-divider light"></div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-6 mb-4" data-aos="fade-right">
+                    <div class="card-visi">
+                        <div class="card-visi-icon">
+                            <i class="bi bi-eye-fill"></i>
+                        </div>
+                        <h3>Visi</h3>
+                        <p>Membangun generasi muda yang bersatu, kreatif, peduli, bertanggung jawab, dan mampu membawa perubahan positif bagi masyarakat.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-4" data-aos="fade-left">
+                    <div class="card-visi">
+                        <div class="card-visi-icon">
+                            <i class="bi bi-rocket-takeoff-fill"></i>
+                        </div>
+                        <h3>Misi</h3>
+                        <ul class="misi-list">
+                            <li><i class="bi bi-check-circle-fill text-gold me-2"></i>Mempererat persaudaraan antar pemuda</li>
+                            <li><i class="bi bi-check-circle-fill text-gold me-2"></i>Mengembangkan bakat dan potensi pemuda</li>
+                            <li><i class="bi bi-check-circle-fill text-gold me-2"></i>Membantu masyarakat yang membutuhkan</li>
+                            <li><i class="bi bi-check-circle-fill text-gold me-2"></i>Menyelenggarakan kegiatan positif dan bermakna</li>
+                            <li><i class="bi bi-check-circle-fill text-gold me-2"></i>Menjaga persatuan dan kesatuan</li>
+                            <li><i class="bi bi-check-circle-fill text-gold me-2"></i>Menumbuhkan jiwa kepemimpinan</li>
+                            <li><i class="bi bi-check-circle-fill text-gold me-2"></i>Mengembangkan kreativitas tanpa batas</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== NILAI UTAMA SECTION ==================== -->
+    <section id="nilai" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center" data-aos="fade-up">
+                    <h2 class="section-title">Nilai <span class="text-gold">Utama</span></h2>
+                    <p class="section-subtitle">Prinsip yang menjadi pondasi setiap langkah dan kegiatan kami</p>
+                    <div class="section-divider"></div>
+                </div>
+            </div>
+            <div class="row g-4 mt-3">
+                <div class="col-md-3 col-6" data-aos="zoom-in" data-aos-delay="0">
+                    <div class="nilai-card">
+                        <div class="nilai-icon" style="background: linear-gradient(135deg, #1a237e, #283593);">
+                            <i class="bi bi-people-fill"></i>
+                        </div>
+                        <h5>Persatuan</h5>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="nilai-card">
+                        <div class="nilai-icon" style="background: linear-gradient(135deg, #d4a017, #f0c040);">
+                            <i class="bi bi-hand-index-thumb-fill"></i>
+                        </div>
+                        <h5>Gotong Royong</h5>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="nilai-card">
+                        <div class="nilai-icon" style="background: linear-gradient(135deg, #ff6f00, #ff8f00);">
+                            <i class="bi bi-heart-fill"></i>
+                        </div>
+                        <h5>Kepedulian</h5>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="nilai-card">
+                        <div class="nilai-icon" style="background: linear-gradient(135deg, #1a237e, #3949ab);">
+                            <i class="bi bi-trophy-fill"></i>
+                        </div>
+                        <h5>Sportivitas</h5>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="nilai-card">
+                        <div class="nilai-icon" style="background: linear-gradient(135deg, #d4a017, #ffb300);">
+                            <i class="bi bi-lightbulb-fill"></i>
+                        </div>
+                        <h5>Kreativitas</h5>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6" data-aos="zoom-in" data-aos-delay="500">
+                    <div class="nilai-card">
+                        <div class="nilai-icon" style="background: linear-gradient(135deg, #ff6f00, #e65100);">
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <h5>Kepemimpinan</h5>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6" data-aos="zoom-in" data-aos-delay="600">
+                    <div class="nilai-card">
+                        <div class="nilai-icon" style="background: linear-gradient(135deg, #1a237e, #5c6bc0);">
+                            <i class="bi bi-shield-fill-check"></i>
+                        </div>
+                        <h5>Tanggung Jawab</h5>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6" data-aos="zoom-in" data-aos-delay="700">
+                    <div class="nilai-card">
+                        <div class="nilai-icon" style="background: linear-gradient(135deg, #d4a017, #ffd54f);">
+                            <i class="bi bi-emoji-smile-fill"></i>
+                        </div>
+                        <h5>Kebersamaan</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== IDE KEGIATAN SECTION ==================== -->
+    <section id="kegiatan" class="section-padding bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center" data-aos="fade-up">
+                    <h2 class="section-title">Ide <span class="text-gold">Kegiatan</span></h2>
+                    <p class="section-subtitle">Beragam program kreatif untuk semua kalangan</p>
+                    <div class="section-divider"></div>
+                </div>
+            </div>
+
+            <!-- Anak-anak -->
+            <div class="kategori-section mt-5" data-aos="fade-up">
+                <h3 class="kategori-title"><i class="bi bi-emoji-smile-fill text-warning me-2"></i>Anak-anak</h3>
+                <div class="row g-3 mt-2">
+                    <div class="col-md-3 col-6"><div class="kegiatan-card"><i class="bi bi-cup-hot-fill"></i><span>Lomba Makan Kerupuk</span></div></div>
+                    <div class="col-md-3 col-6"><div class="kegiatan-card"><i class="bi bi-bag-fill"></i><span>Balap Karung</span></div></div>
+                    <div class="col-md-3 col-6"><div class="kegiatan-card"><i class="bi bi-balloon-heart-fill"></i><span>Estafet Balon</span></div></div>
+                    <div class="col-md-3 col-6"><div class="kegiatan-card"><i class="bi bi-palette-fill"></i><span>Mewarnai</span></div></div>
+                    <div class="col-md-3 col-6"><div class="kegiatan-card"><i class="bi bi-pencil-fill"></i><span>Menggambar</span></div></div>
+                    <div class="col-md-3 col-6"><div class="kegiatan-card"><i class="bi bi-image-fill"></i><span>Tebak Gambar</span></div></div>
+                    <div class="col-md-3 col-6"><div class="kegiatan-card"><i class="bi bi-music-note-beamed"></i><span>Joget Balon</span></div></div>
+                    <div class="col-md-3 col-6"><div class="kegiatan-card"><i class="bi bi-box-fill"></i><span>Paku ke Botol</span></div></div>
+                    <div class="col-md-3 col-6"><div class="kegiatan-card"><i class="bi bi-brain-fill"></i><span>Cerdas Cermat</span></div></div>
+                    <div class="col-md-3 col-6"><div class="kegiatan-card"><i class="bi bi-controller-fill"></i><span>Permainan Edukatif</span></div></div>
+                </div>
+            </div>
+
+            <!-- Remaja -->
+            <div class="kategori-section mt-5" data-aos="fade-up">
+                <h3 class="kategori-title"><i class="bi bi-person-raised-hand me-2" style="color:#ff6f00;"></i>Remaja</h3>
+                <div class="row g-3 mt-2">
+                    <div class="col-md-3 col-6"><div class="kegiatan-card"><i class="bi bi-dribbble"></i><span>Turnamen Futsal</span></div></div>
+                    <div class="col-md-3 col-6"><div class="kegiatan-card"><i class="bi bi-volleyball"></i><span>Turnamen Voli</span></div></div>
+                    <div class="col-md-3 col-6"><div class="kegiatan-card"><i class="bi bi-arrow-down-circle-fill"></i><span>Tarik Tambang</span></div></div>
+                    <div class="col-md-3 col-6"><div class="kegiatan-card"><i class="bi bi-phone-fill"></i><span>Mobile Legends</span></div></div>
+                    <div class="col-md-3 col-6"><div class="kegiatan-card"><i class="bi bi-controller"></i><span>PUBG Mobile</span></div></div>
+                    <div class="col-md-3 col-6"><div class="kegiatan-card"><i class="bi bi-grid-3x3-gap-fill"></i><span>Catur</span></div></div>
+                    <div class="col-md-3 col-6"><div class="kegiatan-card"><i class="bi bi-border-all"></i><span>Domino</span></div></div>
+                    <div class="col-md-3 col-6"><div class="kegiatan-card"><i class="bi bi-mic-fill"></i><span>Karaoke</span></div></div>
+                    <div class="col-md-3 col-6"><div class="kegiatan-card"><i class="bi bi-music-note"></i><span>Dance Competition</span></div></div>
+                    <div class="col-md-3 col-6"><div class="kegiatan-card"><i class="bi bi-laptop-fill"></i><span>E-Sport</span></div></div>
+                </div>
+            </div>
+
+            <!-- Dewasa -->
+            <div class="kategori-section mt-5" data-aos="fade-up">
+                <h3 class="kategori-title"><i class="bi bi-person-fill me-2" style="color:#1a237e;"></i>Dewasa</h3>
+                <div class="row g-3 mt-2">
+                    <div class="col-md-3 col-6"><div class="kegiatan-card"><i class="bi bi-walking"></i><span>Jalan Santai</span></div></div>
+                    <div class="col-md-3 col-6"><div class="kegiatan-card"><i class="bi bi-activity"></i><span>Senam Bersama</span></div></div>
+                    <div class="col-md-3 col-6"><div class="kegiatan-card"><i class="bi bi-brush-fill"></i><span>Kerja Bakti</span></div></div>
+                    <div class="col-md-3 col-6"><div class="kegiatan-card"><i class="bi bi-egg-fill"></i><span>Lomba Memasak</span></div></div>
+                    <div class="col-md-3 col-6"><div class="kegiatan-card"><i class="bi bi-people-fill"></i><span>Family Games</span></div></div>
+                    <div class="col-md-3 col-6"><div class="kegiatan-card"><i class="bi bi-house-heart-fill"></i><span>Lomba Kebersihan</span></div></div>
+                </div>
+            </div>
+
+            <!-- Sosial -->
+            <div class="kategori-section mt-5" data-aos="fade-up">
+                <h3 class="kategori-title"><i class="bi bi-heart-fill me-2 text-danger"></i>Sosial</h3>
+                <div class="row g-3 mt-2">
+                    <div class="col-md-3 col-6"><div class="kegiatan-card"><i class="bi bi-droplet-fill text-danger"></i><span>Donor Darah</span></div></div>
+                    <div class="col-md-3 col-6"><div class="kegiatan-card"><i class="bi bi-gift-fill"></i><span>Berbagi Sembako</span></div></div>
+                    <div class="col-md-3 col-6"><div class="kegiatan-card"><i class="bi bi-pencil-fill"></i><span>Berbagi Alat Tulis</span></div></div>
+                    <div class="col-md-3 col-6"><div class="kegiatan-card"><i class="bi bi-heart-pulse-fill"></i><span>Pengobatan Gratis</span></div></div>
+                    <div class="col-md-3 col-6"><div class="kegiatan-card"><i class="bi bi-tree-fill"></i><span>Penanaman Pohon</span></div></div>
+                    <div class="col-md-3 col-6"><div class="kegiatan-card"><i class="bi bi-brush-fill"></i><span>Bersih Lingkungan</span></div></div>
+                </div>
+            </div>
+
+            <!-- Pendidikan -->
+            <div class="kategori-section mt-5" data-aos="fade-up">
+                <h3 class="kategori-title"><i class="bi bi-book-fill me-2" style="color:#1565c0;"></i>Pendidikan</h3>
+                <div class="row g-3 mt-2">
+                    <div class="col-md-3 col-6"><div class="kegiatan-card"><i class="bi bi-mortarboard-fill"></i><span>Seminar Motivasi</span></div></div>
+                    <div class="col-md-3 col-6"><div class="kegiatan-card"><i class="bi bi-exclamation-triangle-fill"></i><span>Seminar Bahaya Narkoba</span></div></div>
+                    <div class="col-md-3 col-6"><div class="kegiatan-card"><i class="bi bi-globe2"></i><span>Seminar Digital</span></div></div>
+                    <div class="col-md-3 col-6"><div class="kegiatan-card"><i class="bi bi-pc-display"></i><span>Pelatihan Komputer</span></div></div>
+                    <div class="col-md-3 col-6"><div class="kegiatan-card"><i class="bi bi-person-up"></i><span>Pelatihan Kepemimpinan</span></div></div>
+                </div>
+            </div>
+
+            <!-- Keagamaan -->
+            <div class="kategori-section mt-5" data-aos="fade-up">
+                <h3 class="kategori-title"><i class="bi bi-building-fill me-2" style="color:#d4a017;"></i>Keagamaan</h3>
+                <div class="row g-3 mt-2">
+                    <div class="col-md-3 col-6"><div class="kegiatan-card"><i class="bi bi-hand-raised-fill"></i><span>Doa Bersama</span></div></div>
+                    <div class="col-md-3 col-6"><div class="kegiatan-card"><i class="bi bi-people-fill"></i><span>Ibadah Pemuda</span></div></div>
+                    <div class="col-md-3 col-6"><div class="kegiatan-card"><i class="bi bi-journal-text"></i><span>Renungan</span></div></div>
+                    <div class="col-md-3 col-6"><div class="kegiatan-card"><i class="bi bi-basket-fill"></i><span>Bakti Sosial</span></div></div>
+                </div>
+            </div>
+
+            <!-- Seni Budaya -->
+            <div class="kategori-section mt-5" data-aos="fade-up">
+                <h3 class="kategori-title"><i class="bi bi-palette-fill me-2" style="color:#ff6f00;"></i>Seni Budaya</h3>
+                <div class="row g-3 mt-2">
+                    <div class="col-md-3 col-6"><div class="kegiatan-card"><i class="bi bi-person-fill"></i><span>Tari Tradisional Papua</span></div></div>
+                    <div class="col-md-3 col-6"><div class="kegiatan-card"><i class="bi bi-camera-fill"></i><span>Fashion Show</span></div></div>
+                    <div class="col-md-3 col-6"><div class="kegiatan-card"><i class="bi bi-music-note-beamed"></i><span>Musik Akustik</span></div></div>
+                    <div class="col-md-3 col-6"><div class="kegiatan-card"><i class="bi bi-music-note"></i><span>Band Lokal</span></div></div>
+                    <div class="col-md-3 col-6"><div class="kegiatan-card"><i class="bi bi-film"></i><span>Drama</span></div></div>
+                    <div class="col-md-3 col-6"><div class="kegiatan-card"><i class="bi bi-mic-fill"></i><span>Paduan Suara</span></div></div>
+                </div>
+            </div>
+
+            <!-- Hiburan -->
+            <div class="kategori-section mt-5" data-aos="fade-up">
+                <h3 class="kategori-title"><i class="bi bi-star-fill me-2" style="color:#d4a017;"></i>Hiburan</h3>
+                <div class="row g-3 mt-2">
+                    <div class="col-md-3 col-6"><div class="kegiatan-card"><i class="bi bi-ticket-perforated-fill"></i><span>Doorprize</span></div></div>
+                    <div class="col-md-3 col-6"><div class="kegiatan-card"><i class="bi bi-dice-6-fill"></i><span>Lucky Draw</span></div></div>
+                    <div class="col-md-3 col-6"><div class="kegiatan-card"><i class="bi bi-controller-fill"></i><span>Games Bersama</span></div></div>
+                    <div class="col-md-3 col-6"><div class="kegiatan-card"><i class="bi bi-tv-fill"></i><span>Nonton Bareng</span></div></div>
+                    <div class="col-md-3 col-6"><div class="kegiatan-card"><i class="bi bi-fire"></i><span>Malam Keakraban</span></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== TIMELINE SECTION ==================== -->
+    <section id="timeline" class="section-padding bg-gradient-vm">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center" data-aos="fade-up">
+                    <h2 class="section-title text-white">Timeline <span class="text-gold">Persiapan</span></h2>
+                    <p class="section-subtitle text-white-50">Tahapan lengkap menuju hari pelaksanaan</p>
+                    <div class="section-divider light"></div>
+                </div>
+            </div>
+            <div class="timeline-wrapper mt-5">
+                <div class="timeline-scroll">
+                    <div class="timeline-track">
+                        <div class="timeline-progress"></div>
+                        <div class="timeline-items">
+                            <div class="timeline-item" data-aos="fade-up" data-aos-delay="0">
+                                <div class="timeline-marker"><i class="bi bi-lightbulb-fill"></i></div>
+                                <div class="timeline-content">
+                                    <h5>Pengumpulan Ide</h5>
+                                    <p>Minggu 1</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+                                <div class="timeline-marker"><i class="bi bi-chat-dots-fill"></i></div>
+                                <div class="timeline-content">
+                                    <h5>Rapat Perdana</h5>
+                                    <p>Minggu 2</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+                                <div class="timeline-marker"><i class="bi bi-people-fill"></i></div>
+                                <div class="timeline-content">
+                                    <h5>Pembentukan Panitia</h5>
+                                    <p>Minggu 3</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item" data-aos="fade-up" data-aos-delay="300">
+                                <div class="timeline-marker"><i class="bi bi-file-text-fill"></i></div>
+                                <div class="timeline-content">
+                                    <h5>Penyusunan Proposal</h5>
+                                    <p>Minggu 4</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item" data-aos="fade-up" data-aos-delay="400">
+                                <div class="timeline-marker"><i class="bi bi-cash-coin"></i></div>
+                                <div class="timeline-content">
+                                    <h5>Penggalangan Dana</h5>
+                                    <p>Minggu 5-6</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item" data-aos="fade-up" data-aos-delay="500">
+                                <div class="timeline-marker"><i class="bi bi-building"></i></div>
+                                <div class="timeline-content">
+                                    <h5>Pencarian Sponsor</h5>
+                                    <p>Minggu 5-6</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item" data-aos="fade-up" data-aos-delay="600">
+                                <div class="timeline-marker"><i class="bi bi-tools"></i></div>
+                                <div class="timeline-content">
+                                    <h5>Persiapan Peralatan</h5>
+                                    <p>Minggu 7</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item" data-aos="fade-up" data-aos-delay="700">
+                                <div class="timeline-marker"><i class="bi bi-play-circle-fill"></i></div>
+                                <div class="timeline-content">
+                                    <h5>Gladi Bersih</h5>
+                                    <p>Minggu 8</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item" data-aos="fade-up" data-aos-delay="800">
+                                <div class="timeline-marker"><i class="bi bi-calendar-check-fill"></i></div>
+                                <div class="timeline-content highlight">
+                                    <h5>Hari Pelaksanaan</h5>
+                                    <p>Hari H</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item" data-aos="fade-up" data-aos-delay="900">
+                                <div class="timeline-marker"><i class="bi bi-clipboard-check-fill"></i></div>
+                                <div class="timeline-content">
+                                    <h5>Evaluasi</h5>
+                                    <p>H+1</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== STRUKTUR ORGANISASI SECTION ==================== -->
+    <section id="organisasi" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center" data-aos="fade-up">
+                    <h2 class="section-title">Struktur <span class="text-gold">Organisasi</span></h2>
+                    <p class="section-subtitle">Tim solid yang siap bekerja untuk masyarakat</p>
+                    <div class="section-divider"></div>
+                </div>
+            </div>
+            <div class="row g-4 mt-3">
+                <div class="col-md-4 col-lg-3" data-aos="flip-left" data-aos-delay="0">
+                    <div class="org-card">
+                        <div class="org-avatar"><i class="bi bi-person-fill"></i></div>
+                        <h5>Ketua</h5>
+                        <p class="org-name">Nama Ketua</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3" data-aos="flip-left" data-aos-delay="100">
+                    <div class="org-card">
+                        <div class="org-avatar"><i class="bi bi-person-fill"></i></div>
+                        <h5>Wakil Ketua</h5>
+                        <p class="org-name">Nama Wakil Ketua</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3" data-aos="flip-left" data-aos-delay="200">
+                    <div class="org-card">
+                        <div class="org-avatar"><i class="bi bi-person-fill"></i></div>
+                        <h5>Sekretaris</h5>
+                        <p class="org-name">Nama Sekretaris</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3" data-aos="flip-left" data-aos-delay="300">
+                    <div class="org-card">
+                        <div class="org-avatar"><i class="bi bi-person-fill"></i></div>
+                        <h5>Bendahara</h5>
+                        <p class="org-name">Nama Bendahara</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3" data-aos="flip-left" data-aos-delay="400">
+                    <div class="org-card">
+                        <div class="org-avatar"><i class="bi bi-person-fill"></i></div>
+                        <h5>Divisi Acara</h5>
+                        <p class="org-name">Koordinator</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3" data-aos="flip-left" data-aos-delay="500">
+                    <div class="org-card">
+                        <div class="org-avatar"><i class="bi bi-person-fill"></i></div>
+                        <h5>Divisi Perlengkapan</h5>
+                        <p class="org-name">Koordinator</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3" data-aos="flip-left" data-aos-delay="600">
+                    <div class="org-card">
+                        <div class="org-avatar"><i class="bi bi-person-fill"></i></div>
+                        <h5>Divisi Konsumsi</h5>
+                        <p class="org-name">Koordinator</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3" data-aos="flip-left" data-aos-delay="700">
+                    <div class="org-card">
+                        <div class="org-avatar"><i class="bi bi-person-fill"></i></div>
+                        <h5>Divisi Dokumentasi</h5>
+                        <p class="org-name">Koordinator</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3" data-aos="flip-left" data-aos-delay="800">
+                    <div class="org-card">
+                        <div class="org-avatar"><i class="bi bi-person-fill"></i></div>
+                        <h5>Divisi Humas</h5>
+                        <p class="org-name">Koordinator</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3" data-aos="flip-left" data-aos-delay="900">
+                    <div class="org-card">
+                        <div class="org-avatar"><i class="bi bi-person-fill"></i></div>
+                        <h5>Divisi Keamanan</h5>
+                        <p class="org-name">Koordinator</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3" data-aos="flip-left" data-aos-delay="1000">
+                    <div class="org-card">
+                        <div class="org-avatar"><i class="bi bi-person-fill"></i></div>
+                        <h5>Divisi Sponsorship</h5>
+                        <p class="org-name">Koordinator</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3" data-aos="flip-left" data-aos-delay="1100">
+                    <div class="org-card">
+                        <div class="org-avatar"><i class="bi bi-person-fill"></i></div>
+                        <h5>Divisi Kebersihan</h5>
+                        <p class="org-name">Koordinator</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== RENCANA ANGGARAN SECTION ==================== -->
+    <section id="anggaran" class="section-padding bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center" data-aos="fade-up">
+                    <h2 class="section-title">Rencana <span class="text-gold">Anggaran</span></h2>
+                    <p class="section-subtitle">Transparansi dana untuk kegiatan yang lebih baik</p>
+                    <div class="section-divider"></div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="anggaran-card">
+                        <h4><i class="bi bi-piggy-bank-fill text-gold me-2"></i>Target Dana</h4>
+                        <div class="target-dana">
+                            <span class="target-label">Total Target</span>
+                            <h2 class="target-nominal">Rp 150.000.000</h2>
+                        </div>
+                        <div class="progress-wrapper mt-4">
+                            <div class="progress-info">
+                                <span>Sponsor</span>
+                                <span>40%</span>
+                            </div>
+                            <div class="progress anggar-progress">
+                                <div class="progress-bar bg-primary" role="progressbar" style="width:0%" data-width="40">40%</div>
+                            </div>
+                        </div>
+                        <div class="progress-wrapper">
+                            <div class="progress-info">
+                                <span>Donatur</span>
+                                <span>25%</span>
+                            </div>
+                            <div class="progress anggar-progress">
+                                <div class="progress-bar bg-warning" role="progressbar" style="width:0%" data-width="25">25%</div>
+                            </div>
+                        </div>
+                        <div class="progress-wrapper">
+                            <div class="progress-info">
+                                <span>Iuran Anggota</span>
+                                <span>20%</span>
+                            </div>
+                            <div class="progress anggar-progress">
+                                <div class="progress-bar bg-success" role="progressbar" style="width:0%" data-width="20">20%</div>
+                            </div>
+                        </div>
+                        <div class="progress-wrapper">
+                            <div class="progress-info">
+                                <span>Kas Pemuda</span>
+                                <span>15%</span>
+                            </div>
+                            <div class="progress anggar-progress">
+                                <div class="progress-bar bg-orange" role="progressbar" style="width:0%" data-width="15">15%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="anggaran-card">
+                        <h4><i class="bi bi-pie-chart-fill text-gold me-2"></i>Simulasi Pendanaan</h4>
+                        <div class="simulasi-item">
+                            <div class="simulasi-icon" style="background:#1a237e;"><i class="bi bi-building text-white"></i></div>
+                            <div class="simulasi-detail">
+                                <h5>Sponsor</h5>
+                                <p>Rp 60.000.000</p>
+                            </div>
+                        </div>
+                        <div class="simulasi-item">
+                            <div class="simulasi-icon" style="background:#d4a017;"><i class="bi bi-gift-fill text-white"></i></div>
+                            <div class="simulasi-detail">
+                                <h5>Donatur</h5>
+                                <p>Rp 37.500.000</p>
+                            </div>
+                        </div>
+                        <div class="simulasi-item">
+                            <div class="simulasi-icon" style="background:#198754;"><i class="bi bi-people-fill text-white"></i></div>
+                            <div class="simulasi-detail">
+                                <h5>Iuran Anggota</h5>
+                                <p>Rp 30.000.000</p>
+                            </div>
+                        </div>
+                        <div class="simulasi-item">
+                            <div class="simulasi-icon" style="background:#ff6f00;"><i class="bi bi-wallet-fill text-white"></i></div>
+                            <div class="simulasi-detail">
+                                <h5>Kas Pemuda</h5>
+                                <p>Rp 22.500.000</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== SPONSOR SECTION ==================== -->
+    <section id="sponsor" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center" data-aos="fade-up">
+                    <h2 class="section-title">Para <span class="text-gold">Sponsor</span></h2>
+                    <p class="section-subtitle">Terima kasih atas dukungan dan partisipasi Anda</p>
+                    <div class="section-divider"></div>
+                </div>
+            </div>
+            <div class="row g-4 mt-3 justify-content-center" data-aos="fade-up">
+                <div class="col-4 col-md-2">
+                    <div class="sponsor-card">
+                        <i class="bi bi-buildings-fill"></i>
+                        <span>Sponsor 1</span>
+                    </div>
+                </div>
+                <div class="col-4 col-md-2">
+                    <div class="sponsor-card">
+                        <i class="bi bi-bank2"></i>
+                        <span>Sponsor 2</span>
+                    </div>
+                </div>
+                <div class="col-4 col-md-2">
+                    <div class="sponsor-card">
+                        <i class="bi bi-shop"></i>
+                        <span>Sponsor 3</span>
+                    </div>
+                </div>
+                <div class="col-4 col-md-2">
+                    <div class="sponsor-card">
+                        <i class="bi bi-bag-check-fill"></i>
+                        <span>Sponsor 4</span>
+                    </div>
+                </div>
+                <div class="col-4 col-md-2">
+                    <div class="sponsor-card">
+                        <i class="bi bi-cup-fill"></i>
+                        <span>Sponsor 5</span>
+                    </div>
+                </div>
+                <div class="col-4 col-md-2">
+                    <div class="sponsor-card">
+                        <i class="bi bi-gem"></i>
+                        <span>Sponsor 6</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== GALERI INSPIRASI SECTION ==================== -->
+    <section id="galeri" class="section-padding bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center" data-aos="fade-up">
+                    <h2 class="section-title">Galeri <span class="text-gold">Inspirasi</span></h2>
+                    <p class="section-subtitle">Gambaran nyata kegiatan yang akan kami selenggarakan</p>
+                    <div class="section-divider"></div>
+                </div>
+            </div>
+            <div class="row g-3 mt-4">
+                <div class="col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="0">
+                    <div class="galeri-card">
+                        <img src="https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=400&q=80" alt="Lomba Balap Karung" loading="lazy">
+                        <div class="galeri-overlay">
+                            <span>Lomba Balap Karung</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="galeri-card">
+                        <img src="https://images.unsplash.com/photo-1600132806370-bf17e65e942f?w=400&q=80" alt="Lomba Makan Kerupuk" loading="lazy">
+                        <div class="galeri-overlay">
+                            <span>Lomba Makan Kerupuk</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="galeri-card">
+                        <img src="https://images.unsplash.com/photo-1588075592446-265fd1e6e76f?w=400&q=80" alt="Lomba Mewarnai" loading="lazy">
+                        <div class="galeri-overlay">
+                            <span>Lomba Mewarnai</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="galeri-card">
+                        <img src="https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=400&q=80" alt="Turnamen Futsal" loading="lazy">
+                        <div class="galeri-overlay">
+                            <span>Turnamen Futsal</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="galeri-card">
+                        <img src="https://images.unsplash.com/photo-1612872087720-bb876e2e67d1?w=400&q=80" alt="Turnamen Bola Voli" loading="lazy">
+                        <div class="galeri-overlay">
+                            <span>Turnamen Bola Voli</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="500">
+                    <div class="galeri-card">
+                        <img src="https://images.unsplash.com/photo-1562077985-8e00bf5f5cf8?w=400&q=80" alt="Tarik Tambang" loading="lazy">
+                        <div class="galeri-overlay">
+                            <span>Tarik Tambang</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="600">
+                    <div class="galeri-card">
+                        <img src="https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=400&q=80" alt="Jalan Santai" loading="lazy">
+                        <div class="galeri-overlay">
+                            <span>Jalan Santai</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="700">
+                    <div class="galeri-card">
+                        <img src="https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=400&q=80" alt="Kerja Bakti" loading="lazy">
+                        <div class="galeri-overlay">
+                            <span>Kerja Bakti</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="800">
+                    <div class="galeri-card">
+                        <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=400&q=80" alt="Penanaman Pohon" loading="lazy">
+                        <div class="galeri-overlay">
+                            <span>Penanaman Pohon</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="900">
+                    <div class="galeri-card">
+                        <img src="https://images.unsplash.com/photo-1615461066841-6116e61058f4?w=400&q=80" alt="Donor Darah" loading="lazy">
+                        <div class="galeri-overlay">
+                            <span>Donor Darah</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="1000">
+                    <div class="galeri-card">
+                        <img src="https://images.unsplash.com/photo-1593113598332-cd288d649433?w=400&q=80" alt="Pembagian Sembako" loading="lazy">
+                        <div class="galeri-overlay">
+                            <span>Pembagian Sembako</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="1100">
+                    <div class="galeri-card">
+                        <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=400&q=80" alt="Seminar Kepemudaan" loading="lazy">
+                        <div class="galeri-overlay">
+                            <span>Seminar Kepemudaan</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="1200">
+                    <div class="galeri-card">
+                        <img src="https://images.unsplash.com/photo-1501386761578-eac5c94b800b?w=400&q=80" alt="Panggung Hiburan" loading="lazy">
+                        <div class="galeri-overlay">
+                            <span>Panggung Hiburan</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="1300">
+                    <div class="galeri-card">
+                        <img src="https://images.unsplash.com/photo-1549465220-1a8b9238cd48?w=400&q=80" alt="Tari Tradisional" loading="lazy">
+                        <div class="galeri-overlay">
+                            <span>Tari Tradisional</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="1400">
+                    <div class="galeri-card">
+                        <img src="https://images.unsplash.com/photo-1510915361894-db8b60106cb1?w=400&q=80" alt="Band Akustik" loading="lazy">
+                        <div class="galeri-overlay">
+                            <span>Band Akustik</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="1500">
+                    <div class="galeri-card">
+                        <img src="https://images.unsplash.com/photo-1607082349566-187342175e2f?w=400&q=80" alt="Doorprize" loading="lazy">
+                        <div class="galeri-overlay">
+                            <span>Doorprize</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="1600">
+                    <div class="galeri-card">
+                        <img src="https://images.unsplash.com/photo-1533900298318-6b8da08a523e?w=400&q=80" alt="Bazar UMKM" loading="lazy">
+                        <div class="galeri-overlay">
+                            <span>Bazar UMKM</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="1700">
+                    <div class="galeri-card">
+                        <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&q=80" alt="Kebersamaan Warga" loading="lazy">
+                        <div class="galeri-overlay">
+                            <span>Kebersamaan Warga</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== FORM IDE SECTION ==================== -->
+    <section id="form-ide" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center" data-aos="fade-up">
+                    <h2 class="section-title">Form <span class="text-gold">Ide</span></h2>
+                    <p class="section-subtitle">Bagikan saran, ide, dan komentar Anda untuk kemajuan bersama</p>
+                    <div class="section-divider"></div>
+                </div>
+            </div>
+            <div class="row justify-content-center mt-4">
+                <div class="col-lg-6" data-aos="fade-up">
+                    <div class="form-card">
+                        <form id="ideForm">
+                            <div class="mb-3">
+                                <label for="nama" class="form-label">Nama Lengkap</label>
+                                <input type="text" class="form-control" id="nama" placeholder="Masukkan nama Anda" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="ide" class="form-label">Ide Kegiatan</label>
+                                <input type="text" class="form-control" id="ide" placeholder="Jenis kegiatan yang diusulkan" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="komentar" class="form-label">Komentar / Saran</label>
+                                <textarea class="form-control" id="komentar" rows="4" placeholder="Tulis komentar atau saran Anda..." required></textarea>
+                            </div>
+                            <div class="alert alert-warning d-flex align-items-center mb-3 py-2" role="alert" style="font-size:0.85rem;border-radius:var(--radius-sm);">
+                                <i class="bi bi-whatsapp me-2" style="font-size:1.2rem;color:#25D366;"></i>
+                                <span>Ide Anda akan dikirim langsung ke WhatsApp Admin KAMPUS</span>
+                            </div>
+                            <button type="submit" class="btn btn-submit w-100">
+                                <i class="bi bi-whatsapp me-2"></i>Kirim Ide via WhatsApp
+                            </button>
+                        </form>
+                        <div id="formSuccess" class="form-success d-none">
+                            <i class="bi bi-check-circle-fill"></i>
+                            <h5>Terima Kasih!</h5>
+                            <p>Ide Anda telah kami terima. Bersama kita majukan komunitas!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <div class="footer-logo">
+                        <i class="bi bi-people-fill"></i>
+                        <h3>KAMPUS – KAMKEY PUSAT</h3>
+                    </div>
+                    <p class="footer-tagline">"Bersatu dalam Kebersamaan, Berkarya untuk Masyarakat."</p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                        <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                    <div class="footer-links">
+                        <a href="#tentang">Tentang</a>
+                        <a href="#kegiatan">Kegiatan</a>
+                        <a href="#organisasi">Organisasi</a>
+                        <a href="#galeri">Galeri</a>
+                        <a href="#form-ide">Kontak</a>
+                    </div>
+                    <div class="footer-copy">
+                        <p>Copyright &copy; 2026 KAMPUS – KAMKEY PUSAT. All Rights Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ==================== BACK TO TOP ==================== -->
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">
+        <i class="bi bi-arrow-up-short"></i>
+    </button>
+
+    <!-- ==================== SCRIPTS ==================== -->
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS Animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
+
